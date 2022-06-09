@@ -4,7 +4,7 @@ config:
   framework: "Ember.js"
   buildCommand: "npm run build"
   buildDir: "dist"
-  runCommand: "npm run serve"
+  runCommand: "npm run start"
   installCommand: "npm install"
 ports:
   - protocol: "HTTPS"
