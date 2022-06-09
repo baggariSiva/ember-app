@@ -116,6 +116,3 @@ It will take a few seconds to deploy your pipeline on elestio.
 For each pipeline deployed on elestio will create a cname for it. but if you want your custom domain then you can configure it inside the target details.
 
 After Pipeline is deployed you can able to view the app by visiting the pipeline domain.
-
-## Further Reading / Useful Links
-
