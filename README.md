@@ -7,6 +7,7 @@
 
 This is a very basic example of a simple Ember app.
 
+-[Ember Docs](https://emberjs.com/)
 
 Clone this [elestio-examples/ember-app](https://github.com/elestio-examples/ember-app) 
 
@@ -25,7 +26,6 @@ This starts your app in development mode, make the changes and push.
 
 <img src="public\screenshot.png" alt="screenshot of the example app" width="100%" />
 
-[ember.js](https://emberjs.com/)
 
 ## CI/CD on Elestio
 
