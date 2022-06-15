@@ -2,28 +2,25 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/ember-app"><img src="public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
-# Ember App
 
-## Prerequisites
+#   Ember App!
 
-You will need the following things properly installed on your computer.
+This is a very basic example of a simple Ember app.
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://cli.emberjs.com/release/)
-* [Google Chrome](https://google.com/chrome/)
 
-## Installation
+Clone this [elestio-examples/ember-app](https://github.com/elestio-examples/ember-app) 
 
-* `git clone https://github.com/elestio-examples/ember-app` this repository
-* `cd ember-app`
-* `npm install`
+```
+git clone https://github.com/elestio-examples/ember-app.git
+```
+Change into project directory.
 
-## Running / Development
+```
+npm install
+npm run start
+```
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+This starts your app in development mode, make the changes and push.
 
 
 <img src="public\screenshot.png" alt="screenshot of the example app" width="100%" />
