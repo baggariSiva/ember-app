@@ -1,30 +1,38 @@
-# EmberJs example demo CI/CD pipeline
+# EmberApp example demo CI/CD pipeline
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/ember-app"><img src="public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
+This is a very basic example of a simple Ember App.
 
-#   Ember App!
+<img src="public\screenshot.png" alt="screenshot of the Ember app" width="100%" />
 
-This is a very basic example of a simple Ember app.
+# Steps to clone this repository and run locally.
 
--[Ember Docs](https://emberjs.com/)
 
-Clone this [elestio-examples/ember-app](https://github.com/elestio-examples/ember-app) 
+### Step 1: Clone this repository.
 
 ```
 git clone https://github.com/elestio-examples/ember-app.git
 ```
-Change into project directory.
+### Step 2: Go to project folder.
+
+```
+cd ember-app
+```
+
+### Step 3: Install dependencies.
 
 ```
 npm install
+```
+
+### Step 4: Run your app in dev mode.
+
+```
 npm run start
 ```
 
-This starts your app in development mode, make the changes and push.
-
-
-<img src="public\screenshot.png" alt="screenshot of the example app" width="100%" />
+### Step 5: Make some changes and push.
 
 
 ## CI/CD on Elestio
@@ -45,14 +53,14 @@ We have three different types of deployment method
 - Gitlab
 - Docker compose
 
-But for this EmberJs Template, you can choose GitHub as your deployment method.
+But for this EmberApp Template, you can choose GitHub as your deployment method.
 
 ### Step 3: Authentication
 
-Select Clone in step at step Git Repository and select EmberJs template for creating a repository in your git account after that authenticate with Git by clicking on
+Select Clone in step at step Git Repository and select EmberApp template for creating a repository in your git account after that authenticate with Git by clicking on
 Continue with Github button and authorize elestio to access git then you can rename you repository name if you want.
 
-Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the ember-app repo otherwise you can directly insert a git repo URL to deploy the Ember App.
+Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the EmberApp repo otherwise you can directly insert a git repo URL to deploy the Ember application.
 
 ### Step 4: Configuration
 
